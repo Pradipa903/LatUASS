@@ -36,7 +36,7 @@ public class DetailProduct extends AppCompatActivity {
         String nameid = getIntent().getStringExtra("name");
 
         imageView.setImageResource(imageid);
-        price.setText(priceid);
+        price.setText("Rp" +     priceid);
         name.setText(nameid);
 
         Button btn = findViewById(R.id.button);
